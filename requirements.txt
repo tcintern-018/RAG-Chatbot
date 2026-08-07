@@ -3,6 +3,7 @@ langchain
 langchain-community
 langchain-core
 langchain-google-genai
+langchain-chroma
 chromadb
 google-generativeai
 pypdf
@@ -11,3 +12,5 @@ python-dotenv
 tqdm
 unstructured
 sentence-transformers
+torch
+torchvision
