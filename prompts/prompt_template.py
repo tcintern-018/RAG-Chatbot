@@ -1,9 +1,3 @@
-"""
-prompt_template.py
-
-Defines the prompt template for the RAG chatbot.
-"""
-
 from langchain_core.prompts import ChatPromptTemplate
 
 from utils.logger import get_logger
@@ -32,10 +26,12 @@ If the answer cannot be found in the context, respond with:
 
 Do not make up information.
 
--------------------------
+---
+
 Context:
 {context}
--------------------------
+
+---
 
 Question:
 {question}
